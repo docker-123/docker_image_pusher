@@ -1,5 +1,1 @@
 alpine:3.18.8
-python:alpine3.19
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json <<-'EOF'
-sudo systemctl daemon-reload
